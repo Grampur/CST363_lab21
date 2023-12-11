@@ -59,7 +59,7 @@ public class ControllerPatientCreate {
 		} else {
 			model.addAttribute("message", "Doctor not found.");
 			model.addAttribute("doctor", p.getPrimaryName());
-			return "patient_register";
+			return "index";
 		}
 	}
 	
